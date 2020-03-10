@@ -1,3 +1,5 @@
+#Copyright© 2020 By Fajar Firdaus
+
 #!/bin/bash
 green='\e[32m'
 cyan='\e[36m'
