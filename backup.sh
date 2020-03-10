@@ -34,6 +34,8 @@ if [[ $x == 1 ]]; then
    pip3 freeze > ./backup/pip3.log
    echo -e $green "[+] Backup python2 modules"
    pip2 freeze > ./backup/pip2.log
+
+   echo -e $green "[✓] Backup Complete check your backup file in backup folder"
 fi
 
 if [[ $x == 2 ]]; then
